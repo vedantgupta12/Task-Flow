@@ -32,6 +32,7 @@ app.get("/", (req, res) => {
   app.use("/users",userRoutes);
   app.use("/teams", teamRoutes);
   /* SERVER */
+
 const port = Number(process.env.PORT) || 3000;
 app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on part ${port}`);
