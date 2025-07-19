@@ -70,7 +70,7 @@ const TaskCard = ({ task }: Props) => {
             <h4 className="mb-2 text-sm font-semibold text-gray-700 dark:text-gray-200">Attachments:</h4>
             <div className="overflow-hidden rounded-md border border-gray-300 dark:border-gray-600 w-fit">
               <Image
-                src={`https://tf-s3-images.s3.us-east-1.amazonaws.com/${task.attachments[0].fileURL}`}
+                src={`https://tf-s3-bucke.s3.us-east-1.amazonaws.com/${task.attachments[0].fileURL}`}
                 alt={task.attachments[0].fileName}
                 width={400}
                 height={200}
